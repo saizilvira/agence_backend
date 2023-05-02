@@ -52,4 +52,4 @@ app.post('/desempenho', async (req, res) => {
     }
     res.json(consultores)
 })
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
